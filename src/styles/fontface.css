@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "ProspectusS";
+  src: url("fonts/subset-ProspectusS-Bold.woff2") format("woff2"),
+    url("fonts/subset-ProspectusS-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ProspectusS";
+  src: url("fonts/subset-ProspectusS-Reg.woff2") format("woff2"),
+    url("fonts/subset-ProspectusS-Reg.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ProspectusS";
+  src: url("fonts/subset-ProspectusS-BldItal.woff2") format("woff2"),
+    url("fonts/subset-ProspectusS-BldItal.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ProspectusS";
+  src: url("fonts/subset-ProspectusS-Italic.woff2") format("woff2"),
+    url("fonts/subset-ProspectusS-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ProspectusL";
+  src: url("fonts/subset-ProspectusL-Bld.woff2") format("woff2"),
+    url("fonts/subset-ProspectusL-Bld.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ProspectusL";
+  src: url("fonts/subset-ProspectusL-BldItal.woff2") format("woff2"),
+    url("fonts/subset-ProspectusL-BldItal.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ProspectusL";
+  src: url("fonts/subset-ProspectusL-Reg.woff2") format("woff2"),
+    url("fonts/subset-ProspectusL-Reg.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ProspectusL";
+  src: url("fonts/subset-ProspectusL-Italic.woff2") format("woff2"),
+    url("fonts/subset-ProspectusL-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
