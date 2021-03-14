@@ -1,3 +1,6 @@
+---
+description: A brief working-class history of gentrification in Montréal's Mile End neighbourhood.
+---
 # A Brief History of Gentrification in Mile End
 
 ## From Working-Class Garment District to Playground for the Wealthy

@@ -28,6 +28,7 @@
     "astroturf": "^1.0.0-beta.17",
     "eslint": "^7.20.0",
     "eslint-config-lostfictions": "^1.1.0",
+    "front-matter": "^4.0.2",
     "imagemin-optipng": "^8.0.0",
     "next": "^10.0.7",
     "next-compose-plugins": "^2.2.1",
