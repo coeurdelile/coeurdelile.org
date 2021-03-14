@@ -4,14 +4,8 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-/* @import url("./reboot.css"); */
 @import url("./fontface.css");
 @import url("./vars.css");
-
-/*
-@import url("./mdx.css");
-@import url("./grid.css");
-*/
 
 html {
   font-size: 18px;
@@ -22,27 +16,14 @@ body {
   background-color: #f1edd0;
   color: #101316;
   font-family: var(--font-body);
-  /* font-weight: 400; */
-  /* line-height: 1.5; */
-  /* margin: 0; */
-  /* text-align: left; */
 }
 
 /*
-a {
-  color: unset;
-}
-
 h1,
 h2,
 h3,
 h4 {
   font-family: var(--font-headings);
   font-weight: normal;
-}
-
-blockquote {
-  margin: 0 0 1rem 1rem;
-  font-size: 1.3em;
 }
 */

@@ -19,7 +19,7 @@ const SEO = ({
 
   return (
     <Head>
-      <title>GWU Montréal</title>
+      <title>{`${t("siteName")} — ${title}`}</title>
       {/* {langList.map((l) => (
         <link key={l} rel="alternate" hrefLang={l} href={`${domain}/${l}`} />
       ))} */}

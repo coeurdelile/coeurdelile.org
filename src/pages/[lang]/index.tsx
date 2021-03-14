@@ -1,7 +1,6 @@
 import React from "react";
 
 import SEO from "~/components/SEO";
-import Hero from "~/components/Hero";
 
 import type { GetStaticProps } from "next";
 
@@ -13,11 +12,7 @@ interface PageProps {
 const Index = ({ body, description }: PageProps) => {
   return (
     <>
-      <SEO
-        title="Groupe de recherche du Cœur-de-l'Île — Zine"
-        description={description}
-      />
-      {/* <Hero /> */}
+      <SEO title="Zine" description={description} />
       <div className="flex justify-center px-4">
         <article className="prose" dangerouslySetInnerHTML={{ __html: body }} />
       </div>

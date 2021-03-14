@@ -1,9 +1,3 @@
-/* @custom-media --xs-only only screen and (max-width: 803px);
-@custom-media --sm only screen and (min-width: 804px);
-@custom-media --sm-only only screen and (max-width: 1060px);
-@custom-media --md only screen and (min-width: 1060px);
-@custom-media --lg only screen and (min-width: 1236px); */
-
 :root {
   --font-headings: "ProspectusL", sans-serif;
   --font-body: "ProspectusS", sans-serif;
