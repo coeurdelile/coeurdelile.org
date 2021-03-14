@@ -10,7 +10,7 @@ export const langs = {
   fr: "Français",
 } as const;
 
-export const languageList = Object.keys(langs);
+export const langList = Object.keys(langs);
 
 const localeData: { [lang: string]: { [id: string]: string } } = {
   en,
@@ -21,12 +21,10 @@ export function useSiteData() {
   const router = useRouter();
 
   const lang = router.query["lang"] as string;
-  const slug = router.query["slug"] as string | undefined;
 
   return {
     lang,
     langs,
-    slug,
     t: (id: string) => {
       if (localeData[lang][id]) return localeData[lang][id];
       console.warn(`Locale string not found for id "${id}" in lang "${lang}"`);
