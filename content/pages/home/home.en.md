@@ -1,9 +1,8 @@
 ---
+title: A Brief History of Gentrification in Mile End
 description: A brief working-class history of gentrification in Montréal's Mile End neighbourhood.
 ---
-# A Brief History of Gentrification in Mile End
-
-## From Working-Class Garment District to Playground for the Wealthy
+# From Working-Class Garment District to Playground for the Wealthy
 
 **The gentrification of Mile End is a process that has been taking place for over 20 years.** The borough was known for its garment industry throughout the 18th and 19th centuries, until changes in free trade regulations on the global market in the late 1980s and early 1990s led to a collapse of manufacturing in North America. During that time, it was also the site of a strong, working-class immigrant population — particularly Eastern European Jews — who settled in the area before and during the postwar period. The melting pot of Greek, Portuguese, Romanian, Polish, German and other immigrant residents helped to create the diverse and rich cultural reputation that the neighbourhood is known for.
 
@@ -19,7 +18,7 @@ Finally, city planners start to take note, kicking off _reinvestment_ plans unde
 
 In only a few decades, the character of the neighbourhood has changed dramatically— from working-class garment district, to slum, to art and tech hub. For landlords and business owners, who both hold capital that stands to grow or appreciate from more affluent residents and shoppers, this is a welcome change. For those who have been displaced by exorbitant rents and social isolation — including many of the workers who helped build the neighborhood — this has been catastrophic. In 2018, while residents openly worried about the encroachment of tech companies leading to unaffordable rent hikes in Marconi-Alexandra, mayor of Rosemont–La Petite-Patrie François Croteau tried to have it both ways, [saying][tech]:
 
-> “We don’t want to be the next Silicon Valley in terms of social impact. In technological impact, of course, in economic development, of course, but not the social impact of the neighbourhood.”
+> We don’t want to be the next Silicon Valley in terms of social impact. In technological impact, of course, in economic development, of course, but not the social impact of the neighbourhood.
 
 Incidentally, Mile End originally comprised the area north of the Van Horne underpass where the Marconi-Alexandra area is located. The coming of the railroad tracks set this area on a different trajectory — it was only later that it came to establish itself as Little Italy.  The concept of “Mile Ex” as a district or neighbourhood is a much more recent construct, one entirely fabricated by developers and planners to facilitate and accelerate gentrification.
 
@@ -27,7 +26,7 @@ This is a good argument for thinking of the problem holistically, tracking the e
 
 Despite whatever developers and landlords might say about a neighbourhood’s special “character,” they know full well these divisions are artificial. For their part, they always have their sights set on the next hot development zone, ready at a moment’s notice to divest in one place and reinvest in another. Consider, also, that many residents of nearby boroughs such as Rosemont-La Petite-Patrie, Little Italy, Villeray and Parc Ex are former residents who were priced out of Mile End, only to find rents steadily climbing all over the city ([a February 2021 report from rentals.ca][rentals] lists the yearly increase for 2-bedroom apartments at 3.1%). Likewise, renoviction rates have skyrocketed. [Housing advocate Martin Blanchard told the CBC in 2019][cbc-housing]:
 
-> “We used to get 50 to 100 calls per year \[...\] Now we get many hundreds every year. It's a crisis."
+> We used to get 50 to 100 calls per year \[...\] Now we get many hundreds every year. It's a crisis.
 
 His group, the [Comité logement de la Petite Patrie][clpp], conducted [a study released in December 2020][clpp-enquete] that found that of 363 units retaken by landlords between 2015 and 2020 for the purposes of renoviction, **85% of those lease refusals were fraudulent**.
 
@@ -35,7 +34,7 @@ In 2014, when the provincial government proposed a 20% cut to the multimedia tax
 
 With all this in mind, it’s not possible to separate the predatory landlordism of real estate firms like Shiller Lavy from a historical pattern of gentrification in Mile End which kicked off with the collapse of the garment industry. The pattern of disinvestment and reinvestment that characterizes gentrification is more complex than any single real estate firm and is inseparable from the rise of the tech industry — and from widespread housing speculation enabled by the “renoviction” phenomenon that accompanies wild fluctuations in property values. It is also not possible to separate this process from the changing social complexion of Mile End and of other neighbourhoods throughout the city. The loss of cultural institutions and public space and the dramatic rise in housing instability and houselessness (which according to some estimates has doubled since the start of the pandemic) are part and parcel of the phenomenon of gentrification.
 
-### The Consequences for Working Artists
+# The Consequences for<br />Working Artists
 
 The Mile End boasts a vibrant art scene and is often associated with beloved boutiques, music venues, eateries, commercial galleries and bookstores, not to mention fantastic murals, public spectacles and beloved cultural icons. In many people’s minds, it is very hard to separate this scene from specific businesses such as Divan Orange, Le Cagibi, Phonopolis or S.W. Welch, and it’s hard not to feel a certain sense of betrayal when these businesses also fall victim to predatory rent hikes and fraudulent evictions. When there are fewer and fewer public arts spaces available, it’s natural that people will form attachments to the private institutions that come in to fill the void. What is less acknowledged, however, is the effect that gentrification has on those artists who are not wealthy, who do not own capital, and who can’t afford to keep living in a neighbourhood they, too, helped to build by their labour.
 
@@ -45,7 +44,7 @@ It was in 2008 that Toronto-based real estate company Allied Properties Real Est
 
 Then, in 2013, the artist collective Pied Carré signed a 30-year deal with Allied promising 208,000 square feet of gallery and studio space in the de Gaspé megastructures. This move was brokered by municipal politicians and endorsed by Ubisoft. These sorts of public-private agreements, while perhaps better than nothing, hinge entirely on Ubisoft and Allied continuing their investments in the area. As far as they’re concerned, projects that beautify the area and make it attractive for business are beneficial for them too — as long as there’s still a profit to be made. But that’s irrespective of whether or not working artists and other working tenants can keep affording to live in the area.  These projects have done nothing to curtail runaway speculation, rent hikes, or renovictions. The art will still be there for a wealthier, whiter, and smaller population to enjoy at commercial galleries and chic boutiques, while poorer artists struggle to get by.
 
-## Notes and Resources
+# Notes and Resources
 
 ### Regroupement des comités logement et associations de locataires du Québec (RCLALQ)
 

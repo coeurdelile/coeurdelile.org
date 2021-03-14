@@ -17,8 +17,10 @@ const Index = ({ body, description }: PageProps) => {
         title="Groupe de recherche du Cœur-de-l'Île — Zine"
         description={description}
       />
-      <Hero />
-      <div className="" dangerouslySetInnerHTML={{ __html: body }} />
+      {/* <Hero /> */}
+      <div className="flex justify-center px-4">
+        <article className="prose" dangerouslySetInnerHTML={{ __html: body }} />
+      </div>
     </>
   );
 };
