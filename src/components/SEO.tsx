@@ -28,13 +28,17 @@ const SEO = ({
         key="description"
         content={resolvedDescription}
       />
-      <meta property="og:title" key="og:title" content={title} />
+      <meta
+        property="og:title"
+        key="og:title"
+        content={`${t("siteName")} — ${title}`}
+      />
       <meta
         property="og:description"
         key="og:description"
         content={resolvedDescription}
       />
-      {/* <meta property="og:image" content={`${domain}${openGraphImage}`} /> */}
+      <meta property="og:image" content={`${domain}/images/peckbldg.png`} />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content={twitter} />
     </Head>
