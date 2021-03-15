@@ -24,7 +24,7 @@ const titlefont = css`
 `;
 
 const protocol = "mailto:";
-const address = "antigentrification";
+const address = "gentrification";
 const domain = "coeurdelile.org";
 
 const decodeEmail = (e: React.SyntheticEvent<HTMLAnchorElement>) => {
