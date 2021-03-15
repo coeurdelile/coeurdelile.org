@@ -4,8 +4,14 @@ import { css } from "astroturf";
 import SEO from "~/components/SEO";
 
 import logo from "~/images/logo.svg";
+import twitter from "~/images/twitter.svg";
+import email from "~/images/email.svg";
+
+import siteInfo from "~/lib/site-info.server";
 
 import type { GetStaticProps } from "next";
+
+const twUrl = `https://twitter.com/${siteInfo.twitter.slice(1)}`;
 
 interface PageProps {
   body: string;
@@ -16,10 +22,20 @@ const titlefont = css`
   font-family: var(--font-headings);
 `;
 
+const protocol = "mailto:";
+const address = "antigentrification";
+const domain = "coeurdelile.org";
+
+const decodeEmail = (
+  e: React.MouseEvent<HTMLAnchorElement> | React.TouchEvent<HTMLAnchorElement>
+) => {
+  e.currentTarget.href = `${protocol}${address}@${domain}`;
+};
+
 const Index = ({ body, description }: PageProps) => {
   return (
     <>
-      <SEO title="Zine" description={description} />
+      <SEO title="Mile End Zine" description={description} />
       <img className="absolute top-4 left-4 w-16" src={logo} />
       <div className="mx-auto px-4 mt-16 mb-10">
         <header
@@ -42,7 +58,23 @@ const Index = ({ body, description }: PageProps) => {
           className="prose max-w-xl mb-12"
           dangerouslySetInnerHTML={{ __html: body }}
         />
-        <img className="mx-auto w-2/3" src={logo} />
+        <img className="mx-auto w-2/3 mb-8" src={logo} />
+        <div className="flex flex-col items-center mb-12">
+          <div className="mb-4 font-bold italic">
+            <a href={twUrl}>
+              <img className="inline w-4 mr-3" src={twitter} />
+              {siteInfo.twitter}
+            </a>
+          </div>
+          <div className="mb-4 font-bold italic">
+            <a onMouseEnter={decodeEmail} onTouchStart={decodeEmail}>
+              <img className="inline w-4 mr-3" src={email} />
+              {address}
+              <span className="not-italic">&#64;</span>
+              {domain}
+            </a>
+          </div>
+        </div>
       </div>
     </>
   );

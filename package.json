@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://coeurdelile.org",
   "repository": "coeurdelile/coeurdelile.org",
-  "twitter": "@coeur_de_lile",
+  "twitter": "@coeurdelile",
   "scripts": {
     "start": "next dev",
     "export": "next build && next export",
