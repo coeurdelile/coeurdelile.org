@@ -34,7 +34,7 @@ const decodeEmail = (e: React.SyntheticEvent<HTMLAnchorElement>) => {
 const Index = ({ body, title, description }: PageProps) => {
   return (
     <>
-      <SEO title={title} description={description} />
+      <SEO title={title} description={description} ogTitleOverride={title} />
       <img className="absolute top-4 left-4 w-16" src={logo} />
       <div className="mx-auto px-4 mt-16 mb-10">
         <header

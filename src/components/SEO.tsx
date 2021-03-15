@@ -10,9 +10,11 @@ const { domain, twitter } = siteInfo;
 const SEO = ({
   title,
   description,
+  ogTitleOverride,
 }: {
   title: string;
   description?: string;
+  ogTitleOverride?: string;
 }) => {
   const { t } = useSiteData();
 
@@ -30,7 +32,11 @@ const SEO = ({
         key="description"
         content={resolvedDescription}
       />
-      <meta property="og:title" key="og:title" content={resolvedTitle} />
+      <meta
+        property="og:title"
+        key="og:title"
+        content={ogTitleOverride ?? resolvedTitle}
+      />
       <meta
         property="og:description"
         key="og:description"
