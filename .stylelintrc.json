@@ -21,14 +21,6 @@
           "src/styles/vars.css"
         ]
       }
-    ],
-    "csstools/media-use-custom-media": [
-      "always-known",
-      {
-        "importFrom": [
-          "src/styles/vars.css"
-        ]
-      }
     ]
   }
 }
