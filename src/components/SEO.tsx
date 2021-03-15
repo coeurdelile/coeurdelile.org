@@ -15,11 +15,13 @@ const SEO = ({
   description?: string;
 }) => {
   const { t } = useSiteData();
+
+  const resolvedTitle = `${title} — ${t("siteName")}`;
   const resolvedDescription = description || t("site_description");
 
   return (
     <Head>
-      <title>{`${title} — ${t("siteName")}`}</title>
+      <title>{resolvedTitle}</title>
       {/* {langList.map((l) => (
         <link key={l} rel="alternate" hrefLang={l} href={`${domain}/${l}`} />
       ))} */}
@@ -28,11 +30,7 @@ const SEO = ({
         key="description"
         content={resolvedDescription}
       />
-      <meta
-        property="og:title"
-        key="og:title"
-        content={`${t("siteName")} — ${title}`}
-      />
+      <meta property="og:title" key="og:title" content={resolvedTitle} />
       <meta
         property="og:description"
         key="og:description"
