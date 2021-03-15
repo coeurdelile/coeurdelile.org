@@ -82,3 +82,9 @@ http://memoire.mile-end.qc.ca
 
 A historical society and community group for Mile End. Their website is an excellent resource for discovering the history of the neighbourhood.
 
+<a href="/zine-printable.pdf">
+  <h2 className="text-center">
+    Download the printable PDF
+  </h2>
+</a>
+
