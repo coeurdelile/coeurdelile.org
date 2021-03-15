@@ -3,6 +3,8 @@ import { css } from "astroturf";
 
 import SEO from "~/components/SEO";
 
+import logo from "~/images/logo.svg";
+
 import type { GetStaticProps } from "next";
 
 interface PageProps {
@@ -18,12 +20,13 @@ const Index = ({ body, description }: PageProps) => {
   return (
     <>
       <SEO title="Zine" description={description} />
-      <div className="mx-auto px-4 mt-4 mb-10">
+      <img className="absolute top-4 left-4 w-16" src={logo} />
+      <div className="mx-auto px-4 mt-16 mb-10">
         <header
           className={`text-center font-bold italic uppercase ${titlefont}`}
         >
           <div className="text-3xl lg:text-4xl">A</div>
-          <div className="text-5xl lg:text-6xl">Short History</div>
+          <div className="text-5xl lg:text-6xl">Brief History</div>
           <div className="text-3xl lg:text-4xl lowercase">of</div>
           <div className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
             Gentri&shy;fication
@@ -34,10 +37,12 @@ const Index = ({ body, description }: PageProps) => {
       </div>
 
       <div className="max-w-xl mx-auto px-4 mb-16">
+        <img className="mx-auto w-full mb-10" src="/images/peckbldg.png" />
         <article
-          className="prose max-w-xl"
+          className="prose max-w-xl mb-12"
           dangerouslySetInnerHTML={{ __html: body }}
         />
+        <img className="mx-auto w-2/3" src={logo} />
       </div>
     </>
   );
