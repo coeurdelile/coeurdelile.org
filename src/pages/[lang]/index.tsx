@@ -27,7 +27,10 @@ const address = "antigentrification";
 const domain = "coeurdelile.org";
 
 const decodeEmail = (
-  e: React.MouseEvent<HTMLAnchorElement> | React.TouchEvent<HTMLAnchorElement>
+  e:
+    | React.MouseEvent<HTMLAnchorElement>
+    | React.TouchEvent<HTMLAnchorElement>
+    | React.FocusEvent<HTMLAnchorElement>
 ) => {
   e.currentTarget.href = `${protocol}${address}@${domain}`;
 };
@@ -71,6 +74,7 @@ const Index = ({ body, description }: PageProps) => {
               className="flex"
               onMouseEnter={decodeEmail}
               onTouchStart={decodeEmail}
+              onFocus={decodeEmail}
             >
               <img width={18} className="inline mr-3" src={email} />
               {address}
