@@ -1,4 +1,5 @@
 import React from "react";
+import { css } from "astroturf";
 
 import SEO from "~/components/SEO";
 
@@ -9,12 +10,34 @@ interface PageProps {
   description: string;
 }
 
+const titlefont = css`
+  font-family: var(--font-headings);
+`;
+
 const Index = ({ body, description }: PageProps) => {
   return (
     <>
       <SEO title="Zine" description={description} />
-      <div className="flex justify-center px-4">
-        <article className="prose" dangerouslySetInnerHTML={{ __html: body }} />
+      <div className="mx-auto px-4 mt-4 mb-10">
+        <header
+          className={`text-center font-bold italic uppercase ${titlefont}`}
+        >
+          <div className="text-3xl lg:text-4xl">A</div>
+          <div className="text-5xl lg:text-6xl">Short History</div>
+          <div className="text-3xl lg:text-4xl lowercase">of</div>
+          <div className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
+            Gentri&shy;fication
+          </div>
+          <div className="text-3xl lg:text-4xl lowercase">in</div>
+          <div className="text-5xl lg:text-6xl">Mile End</div>
+        </header>
+      </div>
+
+      <div className="max-w-xl mx-auto px-4 mb-16">
+        <article
+          className="prose max-w-xl"
+          dangerouslySetInnerHTML={{ __html: body }}
+        />
       </div>
     </>
   );

@@ -19,6 +19,9 @@ module.exports = {
             blockquote: {
               fontWeight: "normal",
               fontSize: "1.5em",
+              borderLeftColor: "#111827",
+              margin: 0,
+              padding: "0 1.5em",
               // hanging punctuation
               textIndent: "-0.4em",
             },

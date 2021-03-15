@@ -1,8 +1,6 @@
 @charset "utf-8";
 
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@import url("./tw.css");
 
 @import url("./fontface.css");
 @import url("./vars.css");
@@ -13,7 +11,7 @@ html {
 
 body {
   font-size: 1rem;
-  background-color: #f1edd0;
+  background-color: #fff8e4;
   color: #101316;
   font-family: var(--font-body);
 }
