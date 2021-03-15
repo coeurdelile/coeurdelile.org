@@ -6,7 +6,7 @@
   "repository": "coeurdelile/coeurdelile.org",
   "twitter": "@coeurdelile",
   "scripts": {
-    "start": "next dev",
+    "start": "echo '\\033[0;31m=======\\nOpen http://localhost:3000/en to start!\\n=======' && next dev",
     "export": "next build && next export",
     "test": "run-s -l test:*",
     "test:eslint": "eslint '{src,test}/**/*.{js,ts,tsx}'",

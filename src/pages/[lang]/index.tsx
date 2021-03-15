@@ -15,6 +15,7 @@ const twUrl = `https://twitter.com/${siteInfo.twitter.slice(1)}`;
 
 interface PageProps {
   body: string;
+  title: string;
   description: string;
 }
 
@@ -26,19 +27,14 @@ const protocol = "mailto:";
 const address = "antigentrification";
 const domain = "coeurdelile.org";
 
-const decodeEmail = (
-  e:
-    | React.MouseEvent<HTMLAnchorElement>
-    | React.TouchEvent<HTMLAnchorElement>
-    | React.FocusEvent<HTMLAnchorElement>
-) => {
+const decodeEmail = (e: React.SyntheticEvent<HTMLAnchorElement>) => {
   e.currentTarget.href = `${protocol}${address}@${domain}`;
 };
 
-const Index = ({ body, description }: PageProps) => {
+const Index = ({ body, title, description }: PageProps) => {
   return (
     <>
-      <SEO title="Mile End Zine" description={description} />
+      <SEO title={title} description={description} />
       <img className="absolute top-4 left-4 w-16" src={logo} />
       <div className="mx-auto px-4 mt-16 mb-10">
         <header
@@ -99,8 +95,12 @@ export const getStaticProps: GetStaticProps<
 
   const { contents, attributes } = await loadMdx(path);
 
+  const title = attributes["title"];
   const description = attributes["description"];
 
+  if (!title) {
+    throw new Error(`title must not be empty! (in ${path})`);
+  }
   if (!description) {
     throw new Error(`description must not be empty! (in ${path})`);
   }
@@ -108,6 +108,7 @@ export const getStaticProps: GetStaticProps<
   return {
     props: {
       body: contents,
+      title,
       description,
     },
   };
