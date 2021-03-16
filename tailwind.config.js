@@ -22,8 +22,15 @@ module.exports = {
               borderLeftColor: "#111827",
               margin: 0,
               padding: "0 1.5em",
+              border: "none",
               // hanging punctuation
               textIndent: "-0.4em",
+            },
+            hr: {
+              width: "30%",
+              marginLeft: "auto",
+              marginRight: "auto",
+              borderColor: "#101316",
             },
           },
         },
