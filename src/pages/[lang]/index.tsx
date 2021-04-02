@@ -60,19 +60,19 @@ const Index = ({ body, title, description }: PageProps) => {
         <img className="mx-auto w-2/3 mb-8" src={logo} />
         <div className="flex flex-col items-center mb-12">
           <div className="mb-4 font-bold italic">
-            <a className="flex" href={twUrl}>
-              <img width={18} className="inline mr-3" src={twitter} />
+            <a className="flex items-center" href={twUrl}>
+              <img width={18} className="inline mr-3 max-h-6" src={twitter} />
               {siteInfo.twitter}
             </a>
           </div>
           <div className="mb-4 font-bold italic">
             <a
-              className="flex"
+              className="flex items-center"
               onMouseEnter={decodeEmail}
               onTouchStart={decodeEmail}
               onFocus={decodeEmail}
             >
-              <img width={18} className="inline mr-3" src={email} />
+              <img width={18} className="inline mr-3 max-h-6" src={email} />
               {address}
               <span className="not-italic">&#64;</span>
               {domain}
